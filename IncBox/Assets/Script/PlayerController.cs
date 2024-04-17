@@ -24,6 +24,14 @@ public class PlayerController : MonoBehaviour
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
 
+    [Header("Wall Jump System")]
+    public Transform WallCheck;
+    bool isWallTouch;
+    bool isSliding;
+    public float wallSlidingSpeed;
+    public float wallJumpDuration;
+    public Vector2 WallJumpForce;
+    bool wallJumping;
     private void Start()
     {
         jumpsRemaining = maxJumps;
@@ -34,7 +42,7 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
-
+                
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
         if(!isFacingRight && horizontal > 0f)
         {
@@ -42,6 +50,18 @@ public class PlayerController : MonoBehaviour
         }else if(isFacingRight && horizontal < 0f)
         {
             Flip();
+        }
+
+        
+        isWallTouch = Physics2D.OverlapBox(WallCheck.position, new Vector2(0.08f, 0.5f), 0, groundLayer);
+
+        if (isWallTouch && !isGrounded() && horizontal != 0)
+        {
+            isSliding = true;
+        }
+        else
+        {
+            isSliding = false;
         }
     }
 
@@ -51,25 +71,53 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
+
+        if (isSliding)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+        }
+
+        if (wallJumping)
+        {
+            // Tentukan arah dorongan berdasarkan arah dinding
+            float wallJumpDirection = isFacingRight ? -1 : 1;
+
+            // Berikan dorongan kecepatan saat wall jump
+            rb.velocity = new Vector2(wallJumpDirection * WallJumpForce.x, WallJumpForce.y);
+        }
+        else
+        {
+            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        }
+
     }
     public void jump(InputAction.CallbackContext context)
     {
-        if (context.performed && (isGrounded() || jumpsRemaining > 0))
+        if (context.performed)
         {
-            if (jumpsRemaining > 0)
+            if (isGrounded())
             {
+                // Jika berada di tanah, lakukan lompatan biasa
+                rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+                jumpsRemaining = maxJumps - 1; // Mengatur ulang sisa lompatan
+            }
+            else if (jumpsRemaining > 0)
+            {
+                // Jika sisa lompatan masih ada, lakukan lompatan ganda
                 rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
                 jumpsRemaining--;
             }
-            else if (jumpsRemaining == 0 && isGrounded()) // Reset jumps if grounded
+            else if (isSliding)
             {
-                jumpsRemaining = maxJumps - 1; // -1 because the current jump is counted as well
-                rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+                // Jika dalam keadaan sliding di dinding, lakukan wall jump
+                wallJumping = true;
+                Invoke("StopWallJump", wallJumpDuration);
             }
         }
 
         if (context.canceled && rb.velocity.y > 0f)
         {
+            // Mengurangi kecepatan vertikal saat lompat dibatalkan
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
     }
@@ -84,6 +132,11 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+    }
+
+    void StopWallJump()
+    {
+        wallJumping = false;
     }
 
     private void Flip()
@@ -108,7 +161,7 @@ public class PlayerController : MonoBehaviour
         rb.velocity = new Vector2(transform.localScale.x * dashingPower, 0f);
         tr.emitting = true;
         yield return new WaitForSeconds(dashingTime);
-        tr.emitting = false;
+        tr.emitting = true;
         rb.gravityScale = originalGravity;
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
