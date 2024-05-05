@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Crimping Kabel 3
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Alat yang digunakan untuk memeriksa integritas dan kinerja kabel
+      atau sambungan jaringan adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Network interface card
+    - Hub
+    - Tang krimping
+    - Alat tester sinyal
+    correctAns: Alat tester sinyal
+  - questionInfo: Kelebihan dari kabel serat optik dibandingkan kabel lainnya adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Tahan terhadap interferensi elektromagnetik
+    - Murah
+    - Pemasangan sederhana
+    - Jarak pendek
+    correctAns: Tahan terhadap interferensi elektromagnetik
+  - questionInfo: Kabel yang terdiri dari beberapa pasangan kawat tembaga yang dipilin
+      adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - UTP
+    - Koaksial
+    - STP
+    - Serat optik
+    correctAns: UTP
+  - questionInfo: Kabel UTP memiliki berapa pasang kawat di dalamnya?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 4 pasang
+    - 2 pasang
+    - 6 pasang
+    - 8 pasang
+    correctAns: 4 pasang
+  - questionInfo: Kabel STP memiliki keunggulan untuk...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Kondisi khusus, seperti di kapal laut
+    - Jaringan rumah
+    - Jaringan kantor
+    - Jaringan sekolah
+    correctAns: Kondisi khusus, seperti di kapal laut
+  - questionInfo: Konektor yang digunakan pada kabel UTP adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - RJ45
+    - BNC
+    - ST
+    - SC
+    correctAns: RJ45
+  - questionInfo: Apa fungsi utama Network Interface Card (NIC)?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Menghubungkan jaringan LAN
+    - Menyediakan akses ke internet
+    - Menghubungkan perangkat dalam jaringan komputer
+    - Menghubungkan perangkat ke printer
+    correctAns: Menghubungkan perangkat dalam jaringan komputer
+  - questionInfo: Hub dan switch adalah perangkat jaringan yang berfungsi untuk...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Menghubungkan kabel jaringan
+    - Menghubungkan perangkat dalam jaringan komputer
+    - Memperkuat sinyal jaringan
+    - Mengirim paket data melalui internet
+    correctAns: Menghubungkan perangkat dalam jaringan komputer
+  - questionInfo: Sambungan UTP untuk menghubungkan switch ke router adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Straight
+    - Crossover
+    - Rollover
+    - Loopback
+    correctAns: Straight
+  - questionInfo: Sambungan UTP untuk menghubungkan hub ke switch adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Straight
+    - Crossover
+    - Rollover
+    - Loopback
+    correctAns: Crossover

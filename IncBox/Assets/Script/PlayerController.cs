@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
     [SerializeField] private TrailRenderer tr;
+    public ParticleController particleController;
+    public Transform shootingPoint;
 
     private float horizontal;
     public float speed = 5f;
@@ -97,9 +99,12 @@ public class PlayerController : MonoBehaviour
         {
             if (isGrounded())
             {
+                AudioManager.Instance.PlaySFX("jump");
+
                 // Jika berada di tanah, lakukan lompatan biasa
                 rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
                 jumpsRemaining = maxJumps - 1; // Mengatur ulang sisa lompatan
+                particleController.PlayFallParticle(groundCheck.position);
             }
             else if (jumpsRemaining > 0)
             {
@@ -111,6 +116,7 @@ public class PlayerController : MonoBehaviour
             {
                 // Jika dalam keadaan sliding di dinding, lakukan wall jump
                 wallJumping = true;
+                AudioManager.Instance.PlaySFX("move");
                 Invoke("StopWallJump", wallJumpDuration);
             }
         }
@@ -126,6 +132,8 @@ public class PlayerController : MonoBehaviour
     {
         if(context.performed && canDash)
         {
+            AudioManager.Instance.PlaySFX("dash");
+
             StartCoroutine(DashOn());
         }
     }
@@ -141,14 +149,24 @@ public class PlayerController : MonoBehaviour
 
     private void Flip()
     {
+        particleController.PlayTouchParticle(WallCheck.position);
         isFacingRight = !isFacingRight;
         Vector3 localscale = transform.localScale;
         localscale.x *= -1f;
         transform.localScale = localscale;
+
+        if (localscale.x == -1)
+        {
+            shootingPoint.Rotate(0, 180, 0);
+        }else if(localscale.x == 1)
+        {
+            shootingPoint.Rotate(0, 180, 0);
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
     {
+        particleController.PlayMovementParticle(groundCheck.position);
         horizontal = context.ReadValue<Vector2>().x;
     }
 

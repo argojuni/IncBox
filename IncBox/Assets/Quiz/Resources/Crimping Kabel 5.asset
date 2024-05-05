@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Crimping Kabel 5
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Kabel yang paling cocok digunakan untuk jaringan di area yang sempit
+      dan banyak kabel adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - UTP
+    - Koaksial
+    - STP
+    - Serat optik
+    correctAns: UTP
+  - questionInfo: Kabel yang paling sulit untuk dimodifikasi atau diperbaiki adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Serat optik
+    - Koaksial
+    - STP
+    - UTP
+    correctAns: Serat optik
+  - questionInfo: Jenis kabel yang paling banyak digunakan untuk jaringan LAN saat
+      ini adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - UTP
+    - Koaksial
+    - STP
+    - Serat optik
+    correctAns: UTP
+  - questionInfo: Langkah terakhir dalam membuat sambungan kabel LAN adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Memilih jenis kabel yang akan digunakan
+    - Memasang konektor RJ45
+    - Memasang alat krimping
+    - Memeriksa integritas kabel menggunakan alat tester sinyal
+    correctAns: Memeriksa integritas kabel menggunakan alat tester sinyal
+  - questionInfo: Kabel fiber optik menggunakan media transmisi berupa...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Gelombang radio
+    - Sinyal listrik
+    - Cahaya
+    - Gelombang mikro
+    correctAns: Cahaya
+  - questionInfo: Sambungan kabel yang digunakan untuk menghubungkan PC ke PC dengan
+      kabel UTP adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Straight
+    - Crossover
+    - Fiber optik
+    - Coaxial
+    correctAns: Crossover

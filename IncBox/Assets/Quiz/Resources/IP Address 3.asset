@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: IP Address 3
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Jika dua perangkat memiliki Network ID yang berbeda, maka...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Dapat berkomunikasi secara langsung
+    - Tidak dapat berkomunikasi secara langsung
+    - Tergantung pada Subnet Mask
+    - Tergantung pada Host ID
+    correctAns: Tidak dapat berkomunikasi secara langsung
+  - questionInfo: Untuk menghubungkan dua perangkat dengan Network ID yang berbeda,
+      dibutuhkan...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Switch
+    - Hub
+    - Repeater
+    - Router
+    correctAns: Router
+  - questionInfo: Alamat IP yang dapat diakses langsung melalui internet disebut...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - IP Private
+    - IP Publik
+    - IP Loopback
+    - APIPA
+    correctAns: IP Publik
+  - questionInfo: Contoh alamat IP Publik yang valid adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 192.168.1.1
+    - 10.0.0.1
+    - 172.16.0.1
+    - 8.8.8.8
+    correctAns: 8.8.8.8
+  - questionInfo: Subnet Mask pada IP Address berfungsi untuk...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Membedakan Network ID dan Host ID
+    - Mengidentifikasi jaringan lokal
+    - Mengatur alamat default gateway
+    - Memetakan alamat IP ke alamat MAC
+    correctAns: Mengidentifikasi jaringan lokal
+  - questionInfo: 'Nilai Subnet Mask untuk kelas IP A adalah... '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 255.0.0.0
+    - 255.255.0.0
+    - 255.255.255.0
+    - 255.0.0.0
+    correctAns: 255.0.0.0
+  - questionInfo: 'Nilai Subnet Mask untuk kelas IP B adalah... '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 255.0.0.0
+    - 255.255.0.0
+    - 255.255.255.0
+    - 255.255.255.128
+    correctAns: 255.255.0.0
+  - questionInfo: Nilai Subnet Mask untuk kelas IP C adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 255.0.0.0
+    - 255.255.0.0
+    - 255.255.255.0
+    - 255.255.255.128
+    correctAns: 255.255.255.0

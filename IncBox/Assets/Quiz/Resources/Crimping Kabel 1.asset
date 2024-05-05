@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Crimping Kabel 1
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Media penghantar yang termasuk dalam kategori jaringan kabel adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Bluetooth
+    - WiFi
+    - Hotspot
+    - Coaxial
+    correctAns: Coaxial
+  - questionInfo: Kabel koaksial seringkali dikenal sebagai...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Thinnet
+    - Thin coat
+    - Thicknet
+    - Thick coat
+    correctAns: Thicknet
+  - questionInfo: 'Kabel yang memiliki jangkauan paling jauh adalah... '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Serat optik
+    - Koaksial
+    - STP
+    - UTP
+    correctAns: Serat optik
+  - questionInfo: Keuntungan kabel koaksial adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Murah dan mudah dipasang
+    - Tahan terhadap interferensi elektromagnetik
+    - Tidak memerlukan repeater
+    - Hanya cocok untuk jarak pendek
+    correctAns: Tahan terhadap interferensi elektromagnetik
+  - questionInfo: 'Gambar di dibawah menunjukkan pemasangan kabel yang... '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: e4f983e823ac43e4699e0e60449b16e6, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Sejajar, berurutan, dan kulit kabel ikut masuk
+    - Tidak sejajar, berantakan, dan kulit kabel keluar
+    - Sejajar dan berurutan
+    - Kulit kabel keluar
+    correctAns: Sejajar, berurutan, dan kulit kabel ikut masuk
+  - questionInfo: Physical layer pada OSI layer adalah lapisan yang bertanggung jawab
+      untuk...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Mendefinisikan media penghantar
+    - Mengatur lalu lintas data
+    - Mengatur sesi komunikasi
+    - Pemindahan data dari hardware satu ke yang lain
+    correctAns: Pemindahan data dari hardware satu ke yang lain
+  - questionInfo: 'Kelemahan dari kabel UTP adalah... '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Mahal
+    - Jarak maksimal hanya 100 m
+    - Membutuhkan keahlian tinggi
+    - Tidak tahan terhadap cuaca
+    correctAns: Jarak maksimal hanya 100 m
+  - questionInfo: Fungsi dari kabel straight adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Menghubungkan perangkat yang sama
+    - Menghubungkan perangkat yang berbeda
+    - Menghubungkan kabel yang putus
+    - Memperpanjang kabel
+    correctAns: Menghubungkan perangkat yang berbeda
+  - questionInfo: Fungsi dari kabel crossover adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Menghubungkan perangkat yang sama
+    - Menghubungkan perangkat yang berbeda
+    - Menghubungkan kabel yang putus
+    - Memperpanjang kabel
+    correctAns: Menghubungkan perangkat yang sama
+  - questionInfo: Urutan warna PIN pada kabel straight di ujung A dan B adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Sama
+    - Acak
+    - Berbeda
+    - Tidak ada urutan
+    correctAns: Sama

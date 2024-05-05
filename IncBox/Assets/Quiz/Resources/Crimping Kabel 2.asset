@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Crimping Kabel 2
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: 'Urutan warna PIN pada kabel crossover di ujung A dan B adalah... '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Sama
+    - Berbeda
+    - Acak
+    - Tidak ada urutan
+    correctAns: Berbeda
+  - questionInfo: Alat yang digunakan untuk memasang konektor pada ujung kabel adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Tang crimping
+    - Kabel tester
+    - Konektor RJ45
+    - Network adapter
+    correctAns: Tang crimping
+  - questionInfo: Fungsi dari kabel tester adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Memeriksa integritas dan kinerja kabel
+    - Memasang konektor pada kabel
+    - Menyambungkan kabel
+    - Memperpanjang kabel
+    correctAns: Memeriksa integritas dan kinerja kabel
+  - questionInfo: Network adapter berfungsi untuk...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Menghubungkan komputer dalam sebuah jaringan
+    - Menyatukan kabel-kabel jaringan
+    - Memperkuat sinyal jaringan
+    - Meneruskan paket data antar jaringan
+    correctAns: Menghubungkan komputer dalam sebuah jaringan
+  - questionInfo: Perangkat yang berfungsi untuk menyatukan kabel-kabel jaringan
+      adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Hub dan switch
+    - Repeater
+    - Router
+    - Network adapter
+    correctAns: Hub dan switch
+  - questionInfo: Repeater berfungsi untuk...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Memperkuat sinyal jaringan
+    - Menyatukan kabel-kabel jaringan
+    - Menghubungkan komputer dalam jaringan
+    - Meneruskan paket data antar jaringan
+    correctAns: Memperkuat sinyal jaringan
+  - questionInfo: Router berfungsi untuk...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Meneruskan paket data antar jaringan
+    - Menyatukan kabel-kabel jaringan
+    - Menghubungkan komputer dalam jaringan
+    - Memperkuat sinyal jaringan
+    correctAns: Meneruskan paket data antar jaringan
+  - questionInfo: Jenis kabel yang memiliki keuntungan dalam penolakan noise adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Koaksial
+    - UTP
+    - STP
+    - Serat optik
+    correctAns: Koaksial
+  - questionInfo: Kabel jenis UTP sering digunakan karena...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Mudah dipasang
+    - Tahan terhadap interferensi elektromagnetik
+    - Harga murah
+    - Cocok untuk jarak yang jauh
+    correctAns: Harga murah
+  - questionInfo: Sambungan kabel yang digunakan untuk menghubungkan PC ke switch
+      menggunakan koneksi...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Straight
+    - Crossover
+    - Fiber optik
+    - Coaxial
+    correctAns: Straight

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: QuestionsData 1
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Quess the animal?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: c0bb50585e74c4e42afe23172c92e36f, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Monkey
+    - Shark
+    - Porcupine
+    - Elephant
+    correctAns: Elephant
+  - questionInfo: Quess the animal?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 5d00affa1ba994440b82b4f1c20c72fb, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Rabbit
+    - Spider
+    - Polar Bear
+    - Cheeta
+    correctAns: Rabbit
+  - questionInfo: Quess the animal?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 7a07241ec9d50c14583bf87319426eb2, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Lion
+    - Panda
+    - Tiger
+    - Whale
+    correctAns: Tiger

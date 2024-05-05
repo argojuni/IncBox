@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Crimping Kabel 4
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Repeater digunakan untuk...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Menghubungkan perangkat dalam jaringan komputer
+    - Menghubungkan kabel jaringan
+    - Memperkuat sinyal jaringan
+    - Mengirim paket data melalui internet
+    correctAns: Memperkuat sinyal jaringan
+  - questionInfo: Apa fungsi utama router dalam jaringan komputer?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Menghubungkan perangkat dalam jaringan komputer
+    - Memperkuat sinyal jaringan
+    - Mengirim paket data melalui jaringan komputer atau internet
+    - Menerima paket data dari internet
+    correctAns: Mengirim paket data melalui jaringan komputer atau internet
+  - questionInfo: Langkah pertama dalam membuat sambungan kabel LAN adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Memilih jenis kabel yang akan digunakan
+    - Memasang konektor RJ45
+    - Memasang alat krimping
+    - Memeriksa integritas kabel menggunakan alat tester sinyal
+    correctAns: Memilih jenis kabel yang akan digunakan
+  - questionInfo: Kabel yang digunakan untuk membuat sambungan Straight adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Coaxial
+    - Fiber optik
+    - STP
+    - UTP
+    correctAns: UTP
+  - questionInfo: 'Proses yang dilakukan router dalam meneruskan paket data disebut... '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Routing
+    - Switching
+    - Repeating
+    - Bridging
+    correctAns: Routing
+  - questionInfo: 'Pemasangan kabel yang membutuhkan keahlian tinggi adalah... '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - STP
+    - UTP
+    - Koaksial
+    - Serat optik
+    correctAns: STP
+  - questionInfo: Kabel yang cocok digunakan untuk jaringan backbone adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Koaksial
+    - UTP
+    - STP
+    - Serat optik
+    correctAns: Koaksial
+  - questionInfo: Jenis kabel yang paling tidak tahan terhadap cuaca adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - UTP
+    - Koaksial
+    - STP
+    - Serat optik
+    correctAns: UTP
+  - questionInfo: Kabel yang dapat mencapai jarak terjauh adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Serat optik
+    - Koaksial
+    - STP
+    - UTP
+    correctAns: Serat optik
+  - questionInfo: Jenis kabel yang paling rentan terhadap interferensi elektromagnetik
+      adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - UTP
+    - Koaksial
+    - STP
+    - Serat optik
+    correctAns: UTP

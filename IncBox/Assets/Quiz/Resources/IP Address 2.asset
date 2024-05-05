@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: IP Address 2
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Alamat IP dengan 4 bagian angka dipisahkan oleh titik adalah penulisan
+      dari IP versi...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - IPv1
+    - IPv2
+    - IPv3
+    - IPv4
+    correctAns: IPv4
+  - questionInfo: 'Konfigurasi IP Address secara manual atau otomatis menggunakan
+      DHCP termasuk fitur dari IP versi... '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - IPv1
+    - IPv2
+    - IPv3
+    - IPv4
+    correctAns: IPv4
+  - questionInfo: Berapa panjang alamat IPv6?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 16 bit
+    - 32 bit
+    - 64 bit
+    - 128 bit
+    correctAns: 128 bit
+  - questionInfo: Notasi alamat IPv6 menggunakan format...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Notasi desimal titik
+    - Notasi heksadesimal dengan 8 blok 4 digit heksadesimal
+    - Notasi biner
+    - Notasi oktal
+    correctAns: Notasi heksadesimal dengan 8 blok 4 digit heksadesimal
+  - questionInfo: Alamat IP dengan rentang 10.0.0.0 sampai 10.255.255.255 termasuk
+      kelas...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Kelas A
+    - Kelas B
+    - Kelas C
+    - Kelas D
+    correctAns: Kelas A
+  - questionInfo: Alamat IP dengan rentang 172.16.0.0 sampai 172.31.255.255 termasuk
+      kelas...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Kelas A
+    - Kelas B
+    - Kelas C
+    - Kelas D
+    correctAns: Kelas B
+  - questionInfo: Alamat IP dengan rentang 192.168.0.0 sampai 192.168.255.255 termasuk
+      kelas...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Kelas A
+    - Kelas B
+    - Kelas C
+    - Kelas D
+    correctAns: Kelas C
+  - questionInfo: Alamat IP 127.0.0.1 dikenal sebagai...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - IP Publik
+    - IP Private
+    - IP Gateway
+    - IP Loopback
+    correctAns: IP Loopback
+  - questionInfo: 'Nilai Subnet Mask untuk kelas IP B adalah... '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 255.0.0.0
+    - 255.255.0.0
+    - 255.255.255.0
+    - 255.255.255.128
+    correctAns: 255.255.0.0

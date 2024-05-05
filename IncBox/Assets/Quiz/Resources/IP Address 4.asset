@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: IP Address 4
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Dalam konfigurasi IP Address, jika Network ID dan Subnet Mask sama,
+      maka...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Tidak dapat berkomunikasi
+    - Dapat berkomunikasi
+    - Tergantung pada Host ID
+    - Tergantung pada Gateway
+    correctAns: Dapat berkomunikasi
+  - questionInfo: Jika dua perangkat memiliki Host ID yang sama, maka...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Dapat berkomunikasi
+    - Tidak dapat berkomunikasi
+    - Tergantung pada Network ID
+    - Tergantung pada Subnet Mask
+    correctAns: Tidak dapat berkomunikasi
+  - questionInfo: Protokol yang digunakan untuk konfigurasi IP Address secara otomatis
+      adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - SMTP
+    - DHCP
+    - HTTP
+    - FTP
+    correctAns: DHCP
+  - questionInfo: Dalam IPv6, berapa jumlah alamat yang dapat digunakan?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Sekitar 4,3 miliar
+    - Sekitar 16,7 juta
+    - Sekitar 65 ribu
+    - Sekitar 340 undecillion (3.4 x 10^38)
+    correctAns: Sekitar 340 undecillion (3.4 x 10^38)
+  - questionInfo: 'Contoh alamat IP Private yang valid adalah... '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 200.168.1.1
+    - 15.0.0.1
+    - 192.168.0.1
+    - 8.8.8.8
+    correctAns: 192.168.0.1
+  - questionInfo: Dalam jaringan komputer, perangkat yang berfungsi sebagai DHCP
+      Server adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Switch
+    - Hub
+    - Router
+    - Repeater
+    correctAns: Router
+  - questionInfo: Alamat IP dengan rentang 224.0.0.0 sampai 239.255.255.255 termasuk
+      kelas...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Kelas A
+    - Kelas B
+    - Kelas C
+    - Kelas D
+    correctAns: Kelas D
+  - questionInfo: Contoh penggunaan IP Loopback adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Mengakses internet
+    - Komunikasi antar perangkat
+    - Testing konektivitas lokal
+    - Konfigurasi DHCP
+    correctAns: Testing konektivitas lokal

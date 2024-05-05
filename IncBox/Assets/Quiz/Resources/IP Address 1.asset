@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: IP Address 1
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Apa kepanjangan dari IP?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Internet Provider
+    - Internet Protocol
+    - Internet Port
+    - Internet Package
+    correctAns: Internet Protocol
+  - questionInfo: Berapa panjang alamat IPv4?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 16 bit
+    - 32 bit
+    - 64 bit
+    - 128 bit
+    correctAns: 32 bit
+  - questionInfo: Bagian IP Address yang merujuk pada identitas perangkat dalam jaringan
+      adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Subnet Mask
+    - Network ID
+    - Gateway
+    - Host ID
+    correctAns: Host ID
+  - questionInfo: Berikut ini yang termasuk IP Publik adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 192.168.1.1
+    - 10.0.0.1
+    - 172.16.0.1
+    - 209.85.201.105
+    correctAns: 209.85.201.105
+  - questionInfo: IP Address yang digunakan oleh perangkat itu sendiri disebut...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - IP Proxy
+    - IP Gateway
+    - IP Publik
+    - IP Loopback
+    correctAns: IP Loopback
+  - questionInfo: Ketika komputer tidak mendapatkan IP otomatis dari DHCP Server,
+      maka akan terbentuk...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - IP Statis
+    - IP Loopback
+    - IP Publik
+    - APIPA
+    correctAns: APIPA
+  - questionInfo: 'Kelas IP A menggunakan rentang alamat... '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 1.x.x.x sampai 126.x.x.x
+    - 128.1.x.x sampai 191.254.x.x
+    - 192.168.1.x sampai 255.255.255.x
+    - 172.16.0.x sampai 172.31.255.x
+    correctAns: 1.x.x.x sampai 126.x.x.x
+  - questionInfo: Berikut ini yang termasuk IP Private adalah...
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 198.162.12.2
+    - 192.167.2.1
+    - 11.22.33.44
+    - 172.30.56.87
+    correctAns: 172.30.56.87
+  - questionInfo: Apa singkatan dari APIPA?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Automatic Private Internet Protocol Address
+    - Automatic Private IP Addressing
+    - Automatic Public IP Address
+    - Automatic Proxy IP Address
+    correctAns: Automatic Private IP Addressing
